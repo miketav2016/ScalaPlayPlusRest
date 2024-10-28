@@ -1,8 +1,7 @@
 package restApi
 
-import models.TaskResultOutput
+import models.{TaskResultOutput, UrlAndTitle}
 import play.api.Configuration
-import play.api.libs.json.{Format, Json}
 import play.api.libs.ws.WSClient
 
 import javax.inject.Inject
@@ -15,14 +14,16 @@ class RestController @Inject()(wsClient: WSClient,
   private val indexerTimeout = 2.second
 
 
-  def waitForTask(url: String): Future[TaskResultOutput] = {
-
+  def waitForTask(url: String): Future[UrlAndTitle] = {
     wsClient.url(url)
       .withRequestTimeout(indexerTimeout)
       .withHttpHeaders("Content-Type" -> "application/json")
       .get()
       .map { data =>
-        data.json.as[TaskResultOutput]
+        UrlAndTitle(url = url,
+                    title = data.json.as[TaskResultOutput].title.getOrElse("")
+        )
+
       }
   }
 }

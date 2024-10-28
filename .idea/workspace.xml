@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8f5ef21-ebba-4e97-bd18-0a069016b344" name="Changes" comment="testLine&#10;&#10;&#10;&#10;- 1 commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e8f5ef21-ebba-4e97-bd18-0a069016b344" name="Changes" comment="testLine&#10;&#10;&#10;&#10;- 2 commit">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/scala-play-plus-rest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/UrlAndTitle.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/HomeController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/HomeController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/restApi/RestController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/app/restApi/RestController.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +59,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testLine&#10;&#10;&#10;&#10;- 1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="testLine&#10;&#10;&#10;&#10;- 1 commit" />
+    <MESSAGE value="testLine&#10;&#10;&#10;&#10;- 2 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="testLine&#10;&#10;&#10;&#10;- 2 commit" />
   </component>
 </project>
